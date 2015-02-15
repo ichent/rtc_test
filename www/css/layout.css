@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    min-width: 1200px;
+}
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -320px;
+    color: #fff;
+    background-color: #000;
+}
+
+.content {
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    height: 100%;
+}
+
+.content table {
+    color: #fff;
+}
+
+.content table .count {
+    text-align: right;
+}
+.content table .name {
+    text-align: left;
+}
+
+.footer {
+    height: 320px;
+    background: url("/images/footer_bg.png") no-repeat scroll 100% 100% #fff;
+    color: #858890;
+}
+.footer .copyright {
+    margin-left: 50px;
+    font-size: 13px;
+    font-family: Arial;
+    padding-top: 48px;
+}
+
+.footer .social {
+    position: relative;
+    top: -15px;
+    left: -24px;
+}
+
+.footer_item {
+    float: left;
+    margin-left: 50px;
+    padding-top: 20px;
+    width: 16%;
+    color: #858890;
+    font-family: Arial;
+}
+
+.footer_item .footer_item__title {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.footer_item .footer_item__title span {
+    border-bottom: 2px solid #cecfd2;
+}
+
+.footer_item ul {
+    list-style: none;
+    margin-left: -37px;
+}
+
+.footer_item ul li {
+    font-family: Arial;
+    font-size: 13px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.footer_item ul li a {
+    text-decoration: none;
+    color: #858890;
+}
+
+.footer_item ul li a:hover {
+    color: #d60072;
+}
+
+.header_top {
+    height: 41px;
+}
+
+.top_bg_right {
+    background: url("/images/top_bg_right.png") repeat-x;
+    height: 41px;    
+}
+
+.header_info {    
+    height: 93px;
+    background-color: #fff;
+}
+
+.header_menu {
+    height: 50px;
+    background-color: #000;    
+    border-bottom: 5px solid #6d099d;
+}
+
+.menu_item {
+    float: left;
+    margin-left: 80px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.menu_item.first {
+    margin-left: 50px;
+}
+
+.menu_item.home {
+    margin-top: -2px;
+}
+
+.menu_item a {
+    color: #fff;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+.float_none {
+    float: none;
+}
+
+.clear_both {
+    clear: both;
+}
+.search_block {
+    padding-right: 10px;
+    padding-top: 1px;
+}
+
+.search_block img {
+    position: relative;
+    top: 6px;
+    cursor: pointer;
+}
