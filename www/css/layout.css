@@ -2,12 +2,10 @@
     margin: 0;
 }
 html, body {
-    height: 100%;
     min-width: 1200px;
 }
 .wrapper {
-    min-height: 100%;
-    margin: 0 auto -320px;
+    height: 90%!important;
     color: #fff;
     background-color: #000;
 }
@@ -16,7 +14,6 @@ html, body {
     color: #fff;
     background-color: #000;
     padding: 10px;
-    height: 100%;
 }
 
 .content table {
@@ -93,17 +90,17 @@ html, body {
 
 .top_bg_right {
     background: url("/images/top_bg_right.png") repeat-x;
-    height: 41px;    
+    height: 41px;
 }
 
-.header_info {    
+.header_info {
     height: 93px;
     background-color: #fff;
 }
 
 .header_menu {
     height: 50px;
-    background-color: #000;    
+    background-color: #000;
     border-bottom: 5px solid #6d099d;
 }
 
